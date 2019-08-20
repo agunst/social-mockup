@@ -1,0 +1,12 @@
+
+
+header {
+    color: white;
+}
+
+#BlueBox {
+    background-color: rgb(80, 80, 194);
+    height: 80%;
+    width: 850px;
+    margin: 0 auto;
+}
