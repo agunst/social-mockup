@@ -26,27 +26,8 @@ header {
     color: white;
     left: 225px;
     top: 50px;
-    margin: 0;
+    margin: 5px;
     padding: 0;
-}
-
-#whiteHeaderBox {
-    background-color: white;
-    width: 850px;
-    height: 15%;
-    margin: 0 auto;
-}
-
-#whiteHeaderBox ul {
-    padding: 0;
-    display: inline-block;
-}
-
-#whiteHeaderBox ul li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
 }
 
 #profileBox {
@@ -59,39 +40,60 @@ header {
     top: 175px;
     left: 15px;
 }
-/*
-#BlueBox {
-    background-color: rgb(80, 80, 194);
-    height: 80%;
+
+#whiteHeaderBox {
+    background-color: white;
     width: 850px;
+    height: 15%;
     margin: 0 auto;
-    color: white;
 }
 
-#WhiteBox {
-    background-color: whitesmoke;
-    height: 20%;
-    width: 850px;
-    margin: 0 auto;
-
-}
-
-#WhiteBox ul li {
-    list-style-type: none;
-    margin: 0;
+#list {
     padding: 0;
-    display: inline;
+    display: inline-block;
+    margin-left: 225px;
 }
 
-#ProfileBox {
- 
-    background-color: rgb(80, 80, 194);
-    border: 1px solid black;
-    width: 50px;
-    height: 50px;
+#list li {
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+    border-left: 1px solid rgb(212, 212, 212);
 }
- /*  
-    position: absolute;
-    top: 100px;
-    left: 200px;
-*/
+
+#list li:first-child {
+    border: none;
+    font-weight: bold;
+}
+
+#buttons {
+    float: right;
+    font-size: 0;
+    position: relative;
+    top: 25px;
+}
+
+#likeButton {
+    border-radius: 5px;
+}
+
+#buttons button {
+    border: 1px solid grey;
+    background-color: light-grey;
+    padding: 5px 8px;
+    margin: 0;
+}
+
+#buttons button:nth-child(2) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 0;
+    margin-left: 10px;
+}
+
+#buttons button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 0;
+    margin-right: 15px;
+}
