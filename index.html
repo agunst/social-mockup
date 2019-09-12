@@ -35,10 +35,10 @@
             <h2>website</h2>
             
             <span id="buttons">
-                <button id="likeButton">&#128077; Like</button>
+                <button id="likeButton" class="overlay">&#128077; Like</button>
                 <button>&plus; Follow</button>
-                <button>&#128172; Message</button>
-                <button>&bull;&bull;&bull;</button>
+                <button class="overlay">&#128172; Message</button>
+                <button class="overlay">&bull;&bull;&bull;</button>
             </span>
         </div>
         <div id="whiteHeaderBox">
@@ -50,8 +50,27 @@
                 <li id="more">More</li>
             </ul>
         </div>
-            
+           
     </header>
-
+    <main>
+        <div class="row" id="firstRow">
+            <div class="leftColumn" id="About">
+                <div id="aboutTop">
+                    ABOUT
+                    <span id="arrow">&rsaquo;</span>
+                </div>
+                
+                <div id="aboutBottom">
+                    <span id="pushPin" class="overlay">&#128205;</span>
+                    <span>Your Address</span>
+                    <div id="address">City, Country</div>
+                    <hr>
+                    <span id="phone" class="overlay">&#128222;</span>
+                    <span id="number">Add phone number</span>
+                </div>
+            </div>
+            <div class="rightColumn" id="post">Post</div>
+        </div>
+    </main>
 </body>
 </html>
