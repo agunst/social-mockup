@@ -1,15 +1,11 @@
-* {
 
-    
-}
 
 body {
     background-color: lightgray;
-    margin: 0 auto;    /* This centers the page in modern browsers */
+    margin: 0 auto;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;  /* This is a hack for older browsers to center the page */
-    width: 850px;      /* This sets our total page width */
+    width: 850px;      
 }
 
 header {
@@ -114,13 +110,6 @@ header {
     margin-right: 10px;
 }
 
-.rightColumn {
-    width: 492px;
-    float: right;
-    background-color: white;
-    padding: 10px;
-}
-
 #aboutTop {
     border-bottom: 1px solid grey;
     color: rgb(110, 110, 110);
@@ -128,7 +117,6 @@ header {
     padding-bottom: 10px;
     font-size: small;
     font-weight: bold;
-    
 }
 
 #arrow {
@@ -150,8 +138,66 @@ header {
     padding-bottom: 8px;
 }
 
-
 #number {
     color: rgb(89, 89, 170);
+}
+
+.rightColumn {
+    width: 512px;
+    float: right;
+    background-color: white;
+    padding: 0;
+    height: 300px;
+}
+
+#smallPostBlueBox {
+    background-color: rgb(89, 89, 170);
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#postInfo {
+    position: relative;
+    left: 15px;
+    top: 20px;
+    color: grey;
+    font-size: small;
+}
+
+#boldBlueText {
+    font-weight: bold;
+    color: rgb(89, 89, 170);
+}
+
+#blueText {
+    color: rgb(89, 89, 170);
+}
+
+#largePostBlueBox {
+    background-color: rgb(89, 89, 170);
+    width: 502px;
+    height: 180px;
+    position: relative;
+    top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#postBottom {
+    border-top: 1px solid grey;
+    color: rgb(89, 89, 170);
+    height: 40px;
+    position: relative;
+    top: 45px;
     
+}
+
+#postLinks {
+    margin: 15px;
+    position: relative;
+    top: 10px;
+    font-size: small;
 }

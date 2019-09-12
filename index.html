@@ -8,29 +8,9 @@
     <link id="style" rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-<!--    <header>
-        <div id="BlueBox">
-            <div id="ProfileBox"></div>
-
-            <h1>Your page name</h1>
-            <h2>website</h2>
-        </div>
-        <div id="WhiteBox">
-            <ul>
-                <li>Timeline</li>
-                <li>About</li>
-                <li>Welcome</li>
-                <li>FWB</li>
-                <li>More</li>
-            </ul>
-        </div>
-
-    </header>
--->
-
     <header>
-        <div id="blueHeaderBox" class="blueBox">
-            <div id="profileBox" class="blueBox"></div>
+        <div id="blueHeaderBox">
+            <div id="profileBox"></div>
             <h1>Your page name</h1>
             <h2>website</h2>
             
@@ -43,25 +23,24 @@
         </div>
         <div id="whiteHeaderBox">
             <ul id="list">
-                <li id="timeline">Timeline</li>
-                <li id="about">About</li>
-                <li id="welcome">Welcome</li>
-                <li id="fwb">FWB</li>
-                <li id="more">More</li>
+                <li>Timeline</li>
+                <li>About</li>
+                <li>Welcome</li>
+                <li>FWB</li>
+                <li>More</li>
             </ul>
         </div>
            
     </header>
     <main>
-        <div class="row" id="firstRow">
-            <div class="leftColumn" id="About">
+        <div>
+            <div class="leftColumn">
                 <div id="aboutTop">
                     ABOUT
                     <span id="arrow">&rsaquo;</span>
                 </div>
-                
                 <div id="aboutBottom">
-                    <span id="pushPin" class="overlay">&#128205;</span>
+                    <span class="overlay">&#128205;</span>
                     <span>Your Address</span>
                     <div id="address">City, Country</div>
                     <hr>
@@ -69,7 +48,21 @@
                     <span id="number">Add phone number</span>
                 </div>
             </div>
-            <div class="rightColumn" id="post">Post</div>
+            <div class="rightColumn" id="post">
+                <div id="smallPostBlueBox"></div>
+                <div id="postInfo">
+                    <span id="boldBlueText">Your page name</span>
+                    changed their
+                    <span id="blueText">cover photo</span>.
+                    <div id="timeOfPost">3 min ago 
+                        <span id="world" class="overlay">&#127758;</span>
+                    </div>
+                </div>
+                <div id="largePostBlueBox"></div>
+                <div id="postBottom">
+                    <span id="postLinks">Like &bull; Comment &bull; Share</span>
+                </div>
+            </div>
         </div>
     </main>
 </body>
